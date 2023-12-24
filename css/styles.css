@@ -56,6 +56,34 @@ body {
     white-space: pre-wrap;
     overflow: auto;
   }
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Specific styles for different buttons */
+  #addBlock {
+    background-color: #27ae60;
+  }
+  
+  #deleteBlock {
+    background-color: #e74c3c;
+  }
+  
+  #saveFile {
+    background-color: #f39c12;
+  }
   footer {
     background-color: #b8f0f1;
     color:black;
